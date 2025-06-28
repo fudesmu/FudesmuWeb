@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUDESMU</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Icono -->
+    <link rel="icon" href="assets/icons/logo2.png" type="image/png">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- SECCIÓN INICIO CON CARRUSEL FULL SCREEN -->
+    <section id="inicio" class="inicio-section">
+        <div class="carrusel" id="carrusel-container">
+            <!-- Las imágenes se insertarán aquí dinámicamente -->
+        </div>
+
+        <div class="overlay-logos">
+            <img id="logo-left" class="logo-left" alt="Logo izquierdo" />
+            <img id="logo-right" class="logo-right" alt="Logo derecho" />
+        </div>
+
+        <div class="mensaje-inicial">
+            <h1>Transformando comunidades, construyendo futuro.</h1>
+            <div class="botones">
+                <a href="page/nosotros.html" class="btn-link">Nosotros</a>
+                <a href="/Fudesmud/index.html#servicios" class="btn-link">Líneas Productivas</a>
+                <a href="page/proyectos.html" class="btn-link">Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE TARJETAS DESDE JSON -->
+    <section id="servicios" class="tarjetas-section">
+        <h2>Nuestros Servicios</h2>
+        <div class="tarjetas-container" id="tarjetas-container">
+            <!-- Las tarjetas se cargarán dinámicamente desde data/data.json con: 
+                - título arriba
+                - frase debajo
+                - imagen entre frase y botón
+                - botón de "Ver más" -->
+        </div>
+    </section>
+
+    <!-- SECCIÓN QUIÉNES SOMOS -->
+    <section class="quienes-somos-section">
+        <h2>¿Quiénes Somos?</h2>
+        <div class="qs-contenido">
+            <p class="qs-descripcion">
+                FUDESMU es una organización sin ánimo de lucro dedicada al desarrollo integral de comunidades
+                vulnerables.
+            </p>
+
+            <div class="qs-grid">
+                <div class="qs-item">
+                    <h3>Misión</h3>
+                    <p>Empoderar comunidades a través de programas sostenibles en educación, economía, derechos humanos
+                        y protección ambiental.</p>
+                </div>
+                <div class="qs-item">
+                    <h3>Visión</h3>
+                    <p>Ser un referente de desarrollo social, mejorando la calidad de vida mediante la transformación de
+                        oportunidades.</p>
+                </div>
+                <div class="qs-item">
+                    <h3>Valores</h3>
+                    <ul>
+                        <li>Solidaridad</li>
+                        <li>Compromiso</li>
+                        <li>Inclusión</li>
+                        <li>Equidad</li>
+                        <li>Innovación</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOQUE: Producción y Comercialización Agroindustrial -->
+    <section class="info-section ">
+        <div class="info-texto">
+            <h3>Producción y Comercialización Agroindustrial</h3>
+            <ul>
+                <li>Café de alta calidad con estándares de exportación.</li>
+                <li>Asociatividad para el desarrollo agrícola y comercial.</li>
+                <li>Impulso a emprendimientos comunitarios en cultivos y agroindustria.</li>
+            </ul>
+        </div>
+        <div class="info-imagen">
+            <img src="assets/img/nosotros/agroindustrial.jpg" alt="Agroindustrial">
+        </div>
+    </section>
+
+    <!-- BLOQUE: Desarrollo Pecuario y Agroalimentario -->
+    <section class="info-section ">
+        <div class="info-imagen">
+            <img src="assets/img/nosotros/pecuario.jpg" alt="Desarrollo Pecuario">
+        </div>
+        <div class="info-texto">
+            <h3>Desarrollo Pecuario y Agroalimentario</h3>
+            <ul>
+                <li>Avicultura sostenible en zonas rurales.</li>
+                <li>Piscicultura para el fortalecimiento económico local.</li>
+                <li>Procesamiento de productos lácteos y derivados como quesos y yogures.</li>
+                <li>Transformación del chontaduro en harina y subproductos.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- BLOQUE: Infraestructura y Desarrollo Económico -->
+    <section class="info-section ">
+        <div class="info-texto">
+            <h3>Infraestructura y Desarrollo Económico</h3>
+            <ul>
+                <li>Construcción de empresas comunitarias.</li>
+                <li>Montaje de maquinaria amarilla para el mejoramiento de vías terciarias.</li>
+                <li>Gestión de recursos para proyectos estratégicos.</li>
+            </ul>
+        </div>
+        <div class="info-imagen">
+            <img src="assets/img/nosotros/infraestructura.jpg" alt="Infraestructura Económica">
+        </div>
+    </section>
+
+    <!-- BLOQUE: Comunidades FUDESMU -->
+    <section class="info-section">
+        <div class="info-imagen">
+            <img src="assets/img/nosotros/comunidades.jpg" alt="Comunidades FUDESMU">
+        </div>
+        <div class="info-texto">
+            <h3>Comunidades FUDESMU</h3>
+            <ul>
+                <li>Zonas rurales: Fortalecimiento del agro y emprendimientos sostenibles.</li>
+                <li>Municipios con infraestructura limitada: Mejoramiento de vías y acceso.</li>
+                <li>Grupos en riesgo social: Integración y apoyo para una vida digna.</li>
+                <li>Cooperación nacional e internacional: Alianzas estratégicas para el desarrollo sostenible.</li>
+            </ul>
+            <button data-modal="proyectos">Conoce nuestros proyectos</button>
+        </div>
+    </section>
+
+    <!-- BLOQUE: Ejecución de Proyectos Estratégicos -->
+    <section class="info-section ">
+        <div class="info-texto">
+            <h3>Elaboración y Ejecución de Proyectos Estratégicos</h3>
+            <ul>
+                <li>Alianzas estratégicas con entidades nacionales e internacionales.</li>
+                <li>Elaboración de proyectos de inversión en educación, vivienda y emprendimiento.</li>
+                <li>Plataformas de financiamiento y cooperación con ONG y organismos internacionales.</li>
+            </ul>
+            <p><strong>Objetivo:</strong> Apalancar proyectos que garanticen el desarrollo sostenible de las comunidades
+                campesinas y generen un impacto social significativo.</p>
+        </div>
+        <div class="info-imagen">
+            <img src="assets/img/nosotros/proyectos.jpg" alt="Proyectos Estratégicos">
+        </div>
+    </section>
+
+    <!-- BLOQUE: Innovación y Liderazgo -->
+    <section class="info-section">
+        <div class="info-imagen">
+            <img src="assets/img/nosotros/liderazgo.jpg" alt="Innovación y Liderazgo">
+        </div>
+        <div class="info-texto">
+            <h3>Innovación y Liderazgo en Desarrollo Regional</h3>
+            <p>FUDESMU se proyecta como una organización pionera en la ejecución de programas integrales, promoviendo el
+                bienestar de los campesinos y la población en general.</p>
+            <button data-modal="causa">Únete a nuestra causa</button>
+        </div>
+    </section>
+
+    <!-- SECCIÓN-CONTACTO -->
+    <div id="contacto-placeholder"></div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- MODAL INFORMACIÓN -->
+<div id="modal-info" class="modal-overlay">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <h2 id="modal-titulo">Título del Modal</h2>
+        <img id="modal-imagen" src="assets/img/img1.jpg" alt="Imagen Informativa">
+        <p id="modal-texto">
+            Esta es una descripción informativa generada automáticamente. Aquí puedes incluir información adicional
+            sobre la iniciativa, su impacto o próximos pasos para involucrarse.
+        </p>
+    </div>
+</div>

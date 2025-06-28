@@ -1,0 +1,182 @@
+{
+  "tarjetas": [
+    {
+      "titulo": "Cafe",
+      "frase": "Transformamos el grano desde la tierra hasta productos listos para el mundo.",
+      "imagen": "assets/img/cafe/cafe.jpg",
+      "subproductos": [
+        {
+          "titulo": "Café Tostado",
+          "descripcion": "Granos seleccionados y tostados artesanalmente para preservar su aroma y sabor.",
+          "imagen": "assets/img/cafe/cafe.jpg",
+          "precio": "13000"
+        },
+        {
+          "titulo": "Café Molido",
+          "descripcion": "Ideal para cafeteras, con molienda media para preparar en casa.",
+          "imagen": "assets/img/cafe/cafe.jpg",
+          "precio": "11000"
+        },
+        {
+          "titulo": "Yogurt de Café",
+          "descripcion": "Una deliciosa combinación de café natural y lácteos frescos.",
+          "imagen": "assets/img/cafe/cafe.jpg",
+          "precio": "9500"
+        }
+      ]
+    },
+    {
+      "titulo": "Aguacate",
+      "frase": "Innovamos con productos derivados del aguacate para salud y sabor.",
+      "imagen": "assets/img/aguacate/aguacate.jpg",
+      "subproductos": [
+        {
+          "titulo": "Aceite de Aguacate",
+          "descripcion": "Aceite esencial natural para cocina y cosmética.",
+          "imagen": "assets/img/aguacate/aguacate.jpg",
+          "precio": "18000"
+        },
+        {
+          "titulo": "Guacamole Artesanal",
+          "descripcion": "Preparado fresco con ingredientes orgánicos.",
+          "imagen": "assets/img/aguacate/aguacate.jpg",
+          "precio": "8000"
+        },
+        {
+          "titulo": "Licor de Aguacate",
+          "descripcion": "Bebida exótica producida a base de pulpa de aguacate.",
+          "imagen": "assets/img/aguacate/aguacate.jpg",
+          "precio": "22000"
+        }
+      ]
+    },
+    {
+      "titulo": "Cacao",
+      "frase": "El cacao se transforma en dulces, harinas y productos gourmet.",
+      "imagen": "assets/img/cacao/cacao.jpg",
+      "subproductos": [
+        {
+          "titulo": "Chocolate Amargo 70%",
+          "descripcion": "Tabletas de chocolate artesanal con alto contenido de cacao.",
+          "imagen": "assets/img/cacao/cacao.jpg",
+          "precio": "10000"
+        },
+        {
+          "titulo": "Harina de Cacao",
+          "descripcion": "Usada para repostería y batidos saludables.",
+          "imagen": "assets/img/cacao/cacao.jpg",
+          "precio": "7500"
+        },
+        {
+          "titulo": "Cacao Instantáneo",
+          "descripcion": "Bebida soluble natural sin aditivos.",
+          "imagen": "assets/img/cacao/cacao.jpg",
+          "precio": "9000"
+        }
+      ]
+    },
+    {
+      "titulo": "Chontaduro",
+      "frase": "Del fruto tropical al producto terminado con alto valor nutricional.",
+      "imagen": "assets/img/chontaduro/chontaduro.jpg",
+      "subproductos": [
+        {
+          "titulo": "Harina de Chontaduro",
+          "descripcion": "Ideal para panes y tortas nutritivas.",
+          "imagen": "assets/img/chontaduro/chontaduro.jpg",
+          "precio": "7000"
+        },
+        {
+          "titulo": "Dulce de Chontaduro",
+          "descripcion": "Postre artesanal de sabor único.",
+          "imagen": "assets/img/chontaduro/chontaduro.jpg",
+          "precio": "5000"
+        },
+        {
+          "titulo": "Licor de Chontaduro",
+          "descripcion": "Licor artesanal fermentado a base del fruto.",
+          "imagen": "assets/img/chontaduro/chontaduro.jpg",
+          "precio": "20000"
+        }
+      ]
+    },
+    {
+      "titulo": "Especies Menores",
+      "frase": "Diversificamos la producción pecuaria y agroalimentaria sostenible.",
+      "imagen": "assets/img/especies/especies.jpg",
+      "subproductos": [
+        {
+          "titulo": "Gallinas Ponedoras",
+          "descripcion": "Producción comunitaria de huevos 100% naturales.",
+          "imagen": "assets/img/especies/especies.jpg",
+          "precio": "20000"
+        },
+        {
+          "titulo": "Piscicultura",
+          "descripcion": "Cultivo sostenible de peces para consumo local.",
+          "imagen": "assets/img/especies/especies.jpg",
+          "precio": "18000"
+        },
+        {
+          "titulo": "Queso Campesino",
+          "descripcion": "Derivado lácteo producido por asociaciones rurales.",
+          "imagen": "assets/img/especies/especies.jpg",
+          "precio": "8500"
+        }
+      ]
+    },
+    {
+      "titulo": "Infraestructura Comunitaria",
+      "frase": "Diseñamos espacios que transforman la vida en comunidades rurales.",
+      "imagen": "assets/img/infraestructura/infraestructura.jpg",
+      "subproductos": [
+        {
+          "titulo": "Mejoramiento Vial",
+          "descripcion": "Construcción de vías rurales con maquinaria propia.",
+          "imagen": "assets/img/infraestructura/infraestructura.jpg",
+          "precio": "A convenir"
+        },
+        {
+          "titulo": "Autogestión Campesina",
+          "descripcion": "Capacitación comunitaria en obras de infraestructura.",
+          "imagen": "assets/img/infraestructura/infraestructura.jpg",
+          "precio": "Consultoría"
+        }
+      ]
+    },
+    {
+      "titulo": "Ambiental",
+      "frase": "Promovemos acciones sostenibles para proteger el entorno.",
+      "imagen": "assets/img/ambiental/ambiental.jpg",
+      "subproductos": [
+        {
+          "titulo": "Protector Solar Natural",
+          "descripcion": "Hecho a base de miel y extractos vegetales.",
+          "imagen": "assets/img/ambiental/ambiental.jpg",
+          "precio": "12000"
+        },
+        {
+          "titulo": "Shampoo Orgánico",
+          "descripcion": "Producto ecoamigable sin químicos.",
+          "imagen": "assets/img/ambiental/ambiental.jpg",
+          "precio": "10000"
+        },
+        {
+          "titulo": "Crema Hidratante",
+          "descripcion": "Ideal para piel sensible, con ingredientes naturales.",
+          "imagen": "assets/img/ambiental/ambiental.jpg",
+          "precio": "9500"
+        }
+      ]
+    }
+  ],
+  "inicio": [
+    { "carrusel": "assets/img/carrusel/inicio1.jpg" },
+    { "carrusel": "assets/img/carrusel/inicio2.jpg" },
+    { "carrusel": "assets/img/carrusel/inicio3.jpg" }
+  ],
+  "logos": {
+    "izquierdo": "assets/icons/logo2.png",
+    "derecho": "assets/icons/logo1.png"
+  }
+}

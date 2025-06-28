@@ -1,0 +1,147 @@
+/* ===============================
+   SECCIÓN PRINCIPAL DE LA LÍNEA PRODUCTIVA
+================================== */
+.linea-section {
+  padding: 4rem 2rem;
+  background-color: var(--light-color);
+}
+
+.linea-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.linea-texto {
+  flex: 1 1 45%;
+}
+
+.linea-texto h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.linea-texto p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.precio-estilo {
+  display: inline-block;
+  background-color: var(--secondary-color);
+  color: var(--white);
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.linea-imagen {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.linea-imagen img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+/* ===============================
+   SECCIÓN DE SUBPRODUCTOS
+================================== */
+.subproductos-section {
+  padding: 3rem 2rem;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.subproductos-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+
+.subproductos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subproducto-card {
+  background-color: var(--light-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.subproducto-card:hover {
+  transform: translateY(-5px);
+}
+
+.subproducto-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.subproducto-card h4 {
+  font-size: 1.3rem;
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.subproducto-card p {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+}
+
+.precio-subproducto {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+/* ===============================
+   RESPONSIVE – lineas.css
+================================== */
+@media screen and (max-width: 1000px) {
+  .linea-contenido {
+    flex-direction: column;
+  }
+  .linea-texto,
+  .linea-imagen {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+  .subproductos-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .linea-section {
+    padding: 2rem 1rem;
+  }
+  .linea-texto h2 {
+    font-size: 1.6rem;
+  }
+  .subproducto-card {
+    padding: 1rem;
+  }
+  .subproductos-section {
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,105 @@
+/* ===============================
+   HERO NOTICIAS
+================================== */
+.hero-noticias {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../assets/img/img2.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.hero-noticias .contenido-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero-noticias .contenido-hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* ===============================
+   SECCIÓN NOTICIAS
+================================== */
+.noticia-section {
+  padding: 3rem 2rem;
+  background-color: var(--light-color);
+  text-align: center;
+}
+
+.noticia-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+/* Instagram Preview */
+.insta-preview {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.insta-preview:hover {
+  transform: scale(1.03);
+}
+
+/* YouTube Responsive */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* ===============================
+   RESPONSIVE – noticias.css
+================================== */
+@media screen and (max-width: 1000px) {
+  .hero-noticias {
+    padding: 4rem 1rem;
+  }
+  .hero-noticias .contenido-hero h1 {
+    font-size: 2rem;
+  }
+  .hero-noticias .contenido-hero p {
+    font-size: 1rem;
+  }
+  .noticia-section {
+    padding: 2rem 1rem;
+  }
+  .insta-preview {
+    max-width: 100%;
+  }
+  .video-container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-noticias {
+    padding: 3rem 1rem;
+  }
+  .hero-noticias .contenido-hero h1 {
+    font-size: 1.6rem;
+  }
+  .insta-preview {
+    width: 100%;
+  }
+  .video-container {
+    padding-bottom: 56.25%;
+  }
+}
