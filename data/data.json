@@ -141,6 +141,12 @@
           "descripcion": "Capacitación comunitaria en obras de infraestructura.",
           "imagen": "assets/img/infraestructura/infraestructura.jpg",
           "precio": "Consultoría"
+        },
+        {
+          "titulo": "Autogestión Campesina",
+          "descripcion": "Capacitación comunitaria en obras de infraestructura.",
+          "imagen": "assets/img/infraestructura/infraestructura.jpg",
+          "precio": "Consultoría"
         }
       ]
     },
