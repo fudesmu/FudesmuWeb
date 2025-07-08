@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const path = location.pathname;
 
     if (path.includes("/page/lineas/")) return "../../";
-    if (path.includes("/")) return "../";
+    if (path.includes("../")) return "../";
     return "";
   })();
 
