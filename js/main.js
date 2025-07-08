@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const basePath = (() => {
     const path = location.pathname;
     const isGitHubPages = location.hostname === "juanzarta.github.io";
-    const repoName = "/";
+    const repoName = "/page/";
 
     if (isGitHubPages) return repoName;
     if (path.includes("/page/lineas/")) return "../../";
