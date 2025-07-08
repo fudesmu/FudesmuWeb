@@ -1,38 +1,36 @@
 document.addEventListener("DOMContentLoaded", () => {
   const basePath = (() => {
     const path = location.pathname;
-    const isGitHubPages = location.hostname === "juanzarta.github.io";
-    const repoName = "/page/";
 
-    if (isGitHubPages) return repoName;
     if (path.includes("/page/lineas/")) return "../../";
     if (path.includes("/page/")) return "../";
-    return "./";
+    return "";
   })();
 
-// Cargar navbar
-fetch(`${basePath}page/navbar.html`)
-  .then((res) => res.text())
-  .then((html) => {
-    document.getElementById("navbar-placeholder").innerHTML = html;
 
-    // ✅ ACTIVA el botón hamburguesa DESPUÉS de insertar el navbar
-    const toggle = document.getElementById("menu-toggle");
-    const navLinks = document.getElementById("nav-links");
+  // Cargar navbar
+  fetch(`${basePath}page/navbar.html`)
+    .then((res) => res.text())
+    .then((html) => {
+      document.getElementById("navbar-placeholder").innerHTML = html;
 
-    if (toggle && navLinks) {
-      toggle.addEventListener("click", () => {
-        navLinks.classList.toggle("show");
-      });
-    }
+      // ✅ ACTIVA el botón hamburguesa DESPUÉS de insertar el navbar
+      const toggle = document.getElementById("menu-toggle");
+      const navLinks = document.getElementById("nav-links");
 
-    // ✅ Luego carga el submenú
-    fetch(`${basePath}data/data.json`)
-      .then((res) => res.json())
-      .then((data) => {
-        cargarSubmenuLineas(data, basePath);
-      });
-  });
+      if (toggle && navLinks) {
+        toggle.addEventListener("click", () => {
+          navLinks.classList.toggle("show");
+        });
+      }
+
+      // ✅ Luego carga el submenú
+      fetch(`${basePath}data/data.json`)
+        .then((res) => res.json())
+        .then((data) => {
+          cargarSubmenuLineas(data, basePath);
+        });
+    });
 
   // Cargar contacto
   fetch(`${basePath}page/contacto.html`)
