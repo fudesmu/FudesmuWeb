@@ -108,13 +108,13 @@
         {
           "titulo": "Gallinas Ponedoras",
           "descripcion": "Producción comunitaria de huevos 100% naturales.",
-          "imagen": "assets/img/especies/gallinas.jpg",
+          "imagen": "assets/img/especies/GALLINAS.jpg",
           "precio": "35000"
         },
         {
           "titulo": "Piscicultura",
           "descripcion": "Cultivo sostenible de peces para consumo local.",
-          "imagen": "assets/img/especies/especies.jpg",
+          "imagen": "assets/img/especies/piscicultura.jpg",
           "precio": "18000"
         },
         {
