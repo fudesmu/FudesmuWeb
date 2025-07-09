@@ -109,19 +109,19 @@
           "titulo": "Gallinas Ponedoras",
           "descripcion": "Producción comunitaria de huevos 100% naturales.",
           "imagen": "assets/img/especies/GALLINAS.jpg",
-          "precio": "35000"
+          
         },
         {
           "titulo": "Piscicultura",
           "descripcion": "Cultivo sostenible de peces para consumo local.",
           "imagen": "assets/img/especies/especies.jpg",
-          "precio": "18000"
+          
         },
         {
           "titulo": "Queso Campesino",
           "descripcion": "Derivado lácteo producido por asociaciones rurales.",
           "imagen": "assets/img/especies/especies.jpg",
-          "precio": "8500"
+          
         }
       ]
     },
