@@ -109,25 +109,16 @@
           "titulo": "Gallinas Ponedoras",
           "descripcion": "Producción comunitaria de huevos 100% naturales.",
           "imagen": "assets/img/especies/GALLINAS.jpg",
-          
-        },
-        {
-          "titulo": "Porcinos",
-          "descripcion": "Producción de ceba y cria.",
-          "imagen": "assets/img/especies/cerdos.jpg",
-          
         },
         {
           "titulo": "Piscicultura",
           "descripcion": "Cultivo sostenible de peces para consumo local.",
           "imagen": "assets/img/especies/especies.jpg",
-          
         },
         {
           "titulo": "Queso Campesino",
           "descripcion": "Derivado lácteo producido por asociaciones rurales.",
           "imagen": "assets/img/especies/especies.jpg",
-          
         }
       ]
     },
