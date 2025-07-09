@@ -118,7 +118,7 @@
           "precio": "18000"
         },
         {
-          "titulo": "Queso Campesino",
+          "titulo": "Lacteos",
           "descripcion": "Derivado lácteo producido por asociaciones rurales.",
           "imagen": "assets/img/especies/especies.jpg",
           "precio": "A convenir"
@@ -126,7 +126,8 @@
         {
           "titulo": "Porcino",
           "descripcion": "Produccion de ceba y cria",
-          "imagen": "assets/img/aguacate/cerdos.jpg"
+          "imagen": "assets/img/especies/cerdos.jpg",
+          "precio": "Consultoría"
         }
       ]
     },
