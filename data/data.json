@@ -115,19 +115,19 @@
           "titulo": "Piscicultura",
           "descripcion": "Cultivo sostenible de peces para consumo local.",
           "imagen": "assets/img/especies/piscicultura.jpg",
-          "precio": "Consultoría"
+          "precio": "20000"
         },
         {
-          "titulo": "Lacteos",
-          "descripcion": "Derivado lácteo producido por asociaciones rurales.",
-          "imagen": "assets/img/especies/especies.jpg",
+          "titulo": "Ganaderia",
+          "descripcion": "Derivados lácteos producido por asociaciones y ganaderos.",
+          "imagen": "assets/img/especies/ganado.jpg",
           "precio": "A convenir"
         },
         {
           "titulo": "Porcino",
           "descripcion": "Produccion de ceba y cria",
           "imagen": "assets/img/especies/cerdos.jpg",
-          "precio": "Consultoría"
+          "precio": "A convenir"
         }
       ]
     },
