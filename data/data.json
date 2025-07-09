@@ -112,6 +112,12 @@
           
         },
         {
+          "titulo": "Porcinos",
+          "descripcion": "Producción de ceba y cria.",
+          "imagen": "assets/img/especies/cerdos.jpg",
+          
+        },
+        {
           "titulo": "Piscicultura",
           "descripcion": "Cultivo sostenible de peces para consumo local.",
           "imagen": "assets/img/especies/especies.jpg",
