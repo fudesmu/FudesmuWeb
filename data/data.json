@@ -122,6 +122,11 @@
           "descripcion": "Derivado lácteo producido por asociaciones rurales.",
           "imagen": "assets/img/especies/especies.jpg",
           "precio": "8500"
+        },
+        {
+          "titulo": "Porcino",
+          "descripcion": "Produccion de ceba y cria.",
+          "imagen": "assets/img/aguacate/cerdos.jpg",
         }
       ]
     },
