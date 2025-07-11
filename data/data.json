@@ -112,7 +112,7 @@
           "precio": "35000"
         },
         {
-          "titulo": "Piscicultura",
+          "titulo": "Acuaponia",
           "descripcion": "Cultivo sostenible de peces para consumo local.",
           "imagen": "assets/img/especies/piscicultura.jpg",
           "precio": "20000"
@@ -127,6 +127,12 @@
           "titulo": "Porcino",
           "descripcion": "Produccion de ceba y cria",
           "imagen": "assets/img/especies/cerdos.jpg",
+          "precio": "A convenir"
+        },
+        {
+          "titulo": "Apicultura",
+          "descripcion": "producion de miel, polen y concervacion ambiental y polinizacion agricola",
+          "imagen": "assets/img/especies/abeja.png",
           "precio": "A convenir"
         }
       ]
