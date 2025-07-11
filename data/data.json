@@ -149,14 +149,14 @@
           "precio": "A convenir"
         },
         {
-          "titulo": "Autogestión Campesina",
-          "descripcion": "Capacitación comunitaria en obras de infraestructura.",
+          "titulo": "Centros Deportivos",
+          "descripcion": "Construccion de polideportivos con cubierta.",
           "imagen": "assets/img/infraestructura/infraestructura.jpg",
           "precio": "Consultoría"
         },
         {
-          "titulo": "Autogestión Campesina",
-          "descripcion": "Capacitación comunitaria en obras de infraestructura.",
+          "titulo": "Iglesisas y Templos de Oracion",
+          "descripcion": "construciion de templos de oracion donde buscamos la fe.",
           "imagen": "assets/img/infraestructura/infraestructura.jpg",
           "precio": "Consultoría"
         }
