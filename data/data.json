@@ -37,7 +37,7 @@
           "precio": "A convenir"
         },
         {
-          "titulo": "Gomitas",
+          "titulo": "Gomitas de Aguacate",
           "descripcion": "Preparado fresco con ingredientes orgánicos.",
           "imagen": "assets/img/aguacate/gomita.JPG",
           "precio": "A convenir"
@@ -45,7 +45,7 @@
         {
           "titulo": "Sabajon de Aguacate",
           "descripcion": "Bebida exótica producida a base de pulpa de aguacate.",
-          "imagen": "assets/img/aguacate/aguacate.jpg",
+          "imagen": "assets/img/aguacate/sabajon.jpg",
           "precio": "A convenir"
         }
       ]
