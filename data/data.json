@@ -33,13 +33,13 @@
         {
           "titulo": "Aceite de Aguacate",
           "descripcion": "Aceite esencial natural para cocina y cosmética.",
-          "imagen": "assets/img/aguacate/aguacate.jpg",
+          "imagen": "assets/img/aguacate/aceite.jpg",
           "precio": "18000"
         },
         {
-          "titulo": "Guacamole Artesanal",
+          "titulo": "Gomitas",
           "descripcion": "Preparado fresco con ingredientes orgánicos.",
-          "imagen": "assets/img/aguacate/aguacate.jpg",
+          "imagen": "assets/img/aguacate/gomita.jpg",
           "precio": "8000"
         },
         {
