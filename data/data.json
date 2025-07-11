@@ -9,19 +9,19 @@
           "titulo": "Café Tostado",
           "descripcion": "Granos seleccionados y tostados artesanalmente para preservar su aroma y sabor.",
           "imagen": "assets/img/cafe/tostado.jpg",
-          "precio": "13000"
+          "precio": "A convenir"
         },
         {
           "titulo": "Café Molido",
           "descripcion": "Ideal para cafeteras, con molienda media para preparar en casa.",
           "imagen": "assets/img/cafe/molido.jpg",
-          "precio": "11000"
+          "precio": "A convenir"
         },
         {
           "titulo": "Yogurt de Café",
           "descripcion": "Una deliciosa combinación de café natural y lácteos frescos.",
           "imagen": "assets/img/cafe/yogurt.jpg",
-          "precio": "9500"
+          "precio": "A convenir"
         }
       ]
     },
@@ -34,19 +34,19 @@
           "titulo": "Aceite de Aguacate",
           "descripcion": "Aceite esencial natural para cocina y cosmética.",
           "imagen": "assets/img/aguacate/aceite.jpg",
-          "precio": "18000"
+          "precio": "A convenir"
         },
         {
           "titulo": "Gomitas",
           "descripcion": "Preparado fresco con ingredientes orgánicos.",
           "imagen": "assets/img/aguacate/gomita.jpg",
-          "precio": "8000"
+          "precio": "A convenir"
         },
         {
-          "titulo": "Licor de Aguacate",
+          "titulo": "Sabajon de Aguacate",
           "descripcion": "Bebida exótica producida a base de pulpa de aguacate.",
           "imagen": "assets/img/aguacate/aguacate.jpg",
-          "precio": "22000"
+          "precio": "A convenir"
         }
       ]
     },
