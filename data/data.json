@@ -83,20 +83,20 @@
         {
           "titulo": "Harina de Chontaduro",
           "descripcion": "Ideal para panes y tortas nutritivas.",
-          "imagen": "assets/img/chontaduro/chontaduro.jpg",
-          "precio": "7000"
+          "imagen": "assets/img/chontaduro/harina.jpg",
+          "precio": "A convenir"
         },
         {
           "titulo": "Dulce de Chontaduro",
           "descripcion": "Postre artesanal de sabor único.",
-          "imagen": "assets/img/chontaduro/chontaduro.jpg",
-          "precio": "5000"
+          "imagen": "assets/img/chontaduro/dulce.jpg",
+          "precio": "A convenir"
         },
         {
-          "titulo": "Licor de Chontaduro",
-          "descripcion": "Licor artesanal fermentado a base del fruto.",
-          "imagen": "assets/img/chontaduro/chontaduro.jpg",
-          "precio": "20000"
+          "titulo": "Torta de Chontaduro",
+          "descripcion": "Postre artesanal a base de harina del fruto.",
+          "imagen": "assets/img/chontaduro/torta.jpg",
+          "precio": "A convenir"
         }
       ]
     },
