@@ -164,11 +164,11 @@
     },
     {
       "titulo": "Ambiental",
-      "frase": "Promovemos acciones sostenibles para proteger el entorno.",
+      "frase": "Promovemos acciones sostenibles para proteger el planeta y entorno.",
       "imagen": "assets/img/ambiental/ambiental.jpg",
       "subproductos": [
         {
-          "titulo": "Protector Solar Natural",
+          "titulo": "Panel Solar",
           "descripcion": "Hecho a base de miel y extractos vegetales.",
           "imagen": "assets/img/ambiental/ambiental.jpg",
           "precio": "12000"
