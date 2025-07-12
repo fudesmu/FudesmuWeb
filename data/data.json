@@ -151,7 +151,7 @@
         {
           "titulo": "Centros Deportivos",
           "descripcion": "Construccion de polideportivos con cubierta.",
-          "imagen": "assets/img/infraestructura/infraestructura.jpg",
+          "imagen": "assets/img/infraestructura/polideportivo.jpg",
           "precio": "Consultoría"
         },
         {
@@ -159,6 +159,11 @@
           "descripcion": "construcion de templos de oracion donde buscamos la fe.",
           "imagen": "assets/img/infraestructura/infraestructura.jpg",
           "precio": "Consultoría"
+        },
+        {
+          "titulo": "Centros de Salud",
+          "descripcion": "centros donde brindar la primera atencion en salud",
+          "imagen": "assets/img/infraestructura/infraestructura.jpg"
         }
       ]
     },
