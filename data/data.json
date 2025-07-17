@@ -139,51 +139,56 @@
     },
     {
       "titulo": "Infraestructura Comunitaria",
-      "frase": "Diseñamos espacios que transforman la vida en comunidades rurales.",
+      "frase": "Diseñamos espacios que transforman la vida de comunidades rurales.",
       "imagen": "assets/img/infraestructura/infraestructura.jpg",
       "subproductos": [
         {
           "titulo": "Mejoramiento Vial",
           "descripcion": "Construcción de vías rurales con maquinaria propia.",
-          "imagen": "assets/img/infraestructura/vial.jpg",
+          "imagen": "assets/img/infraestructura/vial.png",
           "precio": "A convenir"
         },
         {
           "titulo": "Centros Deportivos",
           "descripcion": "Construccion de polideportivos con cubierta.",
-          "imagen": "assets/img/infraestructura/infraestructura.jpg",
+          "imagen": "assets/img/infraestructura/polideportivo.jpg",
           "precio": "Consultoría"
         },
         {
           "titulo": "Iglesisas y Templos de Oracion",
-          "descripcion": "construcion de templos de oracion donde buscamos la fe.",
-          "imagen": "assets/img/infraestructura/infraestructura.jpg",
+          "descripcion": "Construcion de templos de oracion donde buscamos la fe.",
+          "imagen": "assets/img/infraestructura/iglesia.jpg",
           "precio": "Consultoría"
+        },
+        {
+          "titulo": "Centros de Salud",
+          "descripcion": "centros donde brindar la primera atencion en salud",
+          "imagen": "assets/img/infraestructura/salud.jpg"
         }
       ]
     },
     {
       "titulo": "Ambiental",
-      "frase": "Promovemos acciones sostenibles para proteger el entorno.",
+      "frase": "Promovemos acciones sostenibles para proteger el planeta y entorno.",
       "imagen": "assets/img/ambiental/ambiental.jpg",
       "subproductos": [
         {
-          "titulo": "Protector Solar Natural",
-          "descripcion": "Hecho a base de miel y extractos vegetales.",
-          "imagen": "assets/img/ambiental/ambiental.jpg",
-          "precio": "12000"
+          "titulo": "Energias Limpias",
+          "descripcion": "Paneles solares para energia renonable.",
+          "imagen": "assets/img/ambiental/panel.jpg",
+          "precio": "Consultoría"
         },
         {
-          "titulo": "Shampoo Orgánico",
-          "descripcion": "Producto ecoamigable sin químicos.",
-          "imagen": "assets/img/ambiental/ambiental.jpg",
-          "precio": "10000"
+          "titulo": "Reforestacion de Cuencas Hidrograficas",
+          "descripcion": "Se busca conservar nuestras cuencas de agua donde tomamos el vital liquido para los acueductos y districtos de riego.",
+          "imagen": "assets/img/ambiental/acueducto.jpg",
+          "precio": "Consultoría"
         },
         {
-          "titulo": "Crema Hidratante",
-          "descripcion": "Ideal para piel sensible, con ingredientes naturales.",
-          "imagen": "assets/img/ambiental/ambiental.jpg",
-          "precio": "9500"
+          "titulo": "Manejo de Residuos Solidos",
+          "descripcion": "Reciclaje y compostaje.",
+          "imagen": "assets/img/ambiental/compostaje.jpg",
+          "precio": "Consultoría"
         }
       ]
     }
