@@ -59,19 +59,19 @@
           "titulo": "Chocolate Amargo 70%",
           "descripcion": "Tabletas de chocolate artesanal con alto contenido de cacao.",
           "imagen": "assets/img/cacao/cacao.jpg",
-          "precio": "10000"
+          "precio": "A convenir"
         },
         {
           "titulo": "Harina de Cacao",
           "descripcion": "Usada para repostería y batidos saludables.",
           "imagen": "assets/img/cacao/cacao.jpg",
-          "precio": "7500"
+          "precio": "A convenir"
         },
         {
           "titulo": "Cacao Instantáneo",
           "descripcion": "Bebida soluble natural sin aditivos.",
           "imagen": "assets/img/cacao/cacao.jpg",
-          "precio": "9000"
+          "precio": "A convenir"
         }
       ]
     },
