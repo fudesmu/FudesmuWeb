@@ -109,13 +109,13 @@
           "titulo": "Gallinas Ponedoras",
           "descripcion": "Producción limpia, socio y economica de huevos.",
           "imagen": "assets/img/especies/gallina.jpeg",
-          "precio": "35000"
+          "precio": "A convenir"
         },
         {
           "titulo": "Acuaponia",
           "descripcion": "Cultivo sostenible de peces para consumo local.",
           "imagen": "assets/img/especies/piscicultura.jpg",
-          "precio": "20000"
+          "precio": "A convenir"
         },
         {
           "titulo": "Ganaderia",
